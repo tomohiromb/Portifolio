@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#ordem{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+#portifolio{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#paragrafo{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+}
+.texto{
+    color: white;
+    margin: 5px;
+    /* font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+}
+.image{
+    width: 400px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+#curso {
+    color: #22d4fd;
+}
+#botoes{
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+.link{
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:purple;
+    border-radius: 16px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.link_imagem{
+    width: 50px;
+    background-color:purple;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.rodape{
+    margin: 10px;
+    width: 100%;
+    max-width: 360px;
+}
