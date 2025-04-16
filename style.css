@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -6,14 +6,17 @@
 }
 
 body{
-    color: white;
+    color: f6f6f6;
     background-color: black;
     font-family: Arial, sans-serif;
 }
 .principal{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;     
+    height: 90vh;           
+    text-align: center;  
 }
 #ordem{
     flex-direction: column;
@@ -21,22 +24,25 @@ body{
     align-items: center;
 }
 #portifolio{
-    color: yellow;
+    color: #f0f8ff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #paragrafo{
     display: flex;
-    width: 600px;
+    width: 650px;
     flex-direction: column;
+    margin-right: 40px; 
 }
 .texto{
-    color: white;
+    color: #f6f6f6;
     margin: 5px;
-    /* font-family: "Krona One", sans-serif;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal; */
+    font-style: normal;
+
 }
 .image{
     width: 400px;
@@ -44,9 +50,7 @@ body{
     height: 400px;
 }
 
-#curso {
-    color: #22d4fd;
-}
+
 #botoes{
     align-items: center;
     padding: 20px;
@@ -55,10 +59,10 @@ body{
     display: flex;
 }
 .link{
-    color: black;
+    color: #e8e8e8;
     padding: 10px 20px;
     font-size: 16px;
-    background-color:purple;
+    background-color:#333333;
     border-radius: 16px;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -66,13 +70,24 @@ body{
 }
 .link_imagem{
     width: 50px;
-    background-color:purple;
+    background-color:#333333;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.rodape{
-    margin: 10px;
+.rodape {
+    position: fixed;
+    bottom: 0;
     width: 100%;
+    background: #e8e8e8;
+}
+
+.rodape-link{
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    justify-content: space-around;
+    display: flex;
     max-width: 360px;
+    margin: auto;
 }
