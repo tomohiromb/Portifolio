@@ -6,7 +6,7 @@
 }
 
 body{
-    color: f6f6f6;
+    color: #f6f6f6;
     background-color: black;
     font-family: Arial, sans-serif;
 }
@@ -14,7 +14,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;     
     height: 90vh;           
     text-align: center;  
 }
@@ -22,21 +21,21 @@ body{
     flex-direction: column;
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 #portifolio{
     color: #f0f8ff;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 #paragrafo{
     display: flex;
     width: 650px;
     flex-direction: column;
-    margin-right: 40px; 
 }
 .texto{
-    color: #f6f6f6;
     margin: 5px;
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -53,11 +52,14 @@ body{
 
 #botoes{
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     gap: 50px;
     justify-content: space-around;
     display: flex;
+    max-width: 360px;
+    margin: auto;
 }
+
 .link{
     color: #e8e8e8;
     padding: 10px 20px;
@@ -68,26 +70,21 @@ body{
     margin-bottom: 10px;
     text-decoration: none;
 }
-.link_imagem{
-    width: 50px;
-    background-color:#333333;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
+
 .rodape {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #e8e8e8;
+    background: #c5c5c5;
+    
+    color: #333333;
 }
 
-.rodape-link{
-    align-items: center;
-    padding: 10px;
-    gap: 50px;
-    justify-content: space-around;
-    display: flex;
-    max-width: 360px;
-    margin: auto;
+.rodape-email{
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+}
+.email{
+    text-decoration: none;
 }
